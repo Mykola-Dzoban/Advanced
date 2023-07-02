@@ -95,6 +95,7 @@ function updateStudentInfo() {
 }
 
 submit.addEventListener("click", function(){
+  event.preventDefault();
 
   if(Number(course.value) < 0){
     Number(course.value) *= -1;
@@ -119,6 +120,7 @@ submit.addEventListener("click", function(){
 })
 
 submitMark.addEventListener("click", function () {
+  event.preventDefault();
   if (Number(mark.value) < 0) {
     Number(mark.value) *= -1;
   } else if (Number(mark.value) < 0 || Number(mark.value) > 5) {
@@ -146,11 +148,13 @@ submitMark.addEventListener("click", function () {
 });
 
 dismiss.addEventListener("click", function () {
+  event.preventDefault();
   newStudent.outOfUni = true;
   updateStudentInfo();
 });
 
 recover.addEventListener("click", function(){
+  event.preventDefault();
   newStudent.outOfUni = false;
   updateStudentInfo();
 })
