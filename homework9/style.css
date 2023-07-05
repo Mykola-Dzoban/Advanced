@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background: #c7e1ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#wrapper{
+  display: none;
+  width: 260px;
+  height: 260px;
+  flex-wrap: wrap;
+}
+button{
+  margin-top: 10px;
+  border: 2px solid #6eb2ff;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 1.5rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
