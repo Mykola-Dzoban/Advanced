@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace;
+}
+body{
+  height: 100vh;
+  background: #fffbc6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+h1{
+  font-size: 3rem;
+}
+p{
+  text-align: center;
+  font-size: 2rem;
+}
+input{
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+button{
+  background: rgba(26, 173, 7, 0.308);
+  font-size: 1.25rem;
+  color: rgb(8, 100, 0);
+  font-weight: 700;
+  border: 2px solid rgb(11, 128, 0);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+button#clear{
+  background: rgba(184, 79, 19, 0.308);
+  color: rgb(100, 0, 0);
+  border: 2px solid rgb(128, 0, 0);
+}
