@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/tt-livret-display-trl');
+*{
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Hakturus', sans-serif;
+  font-family: 'TT Livret Display Trl', sans-serif;
+
+}
+body{
+  height: 100vh;
+  background: linear-gradient(137deg, #030422 0%, #090114 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #010577;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#nextPlanets{
+  display: none;
+}
+h1{
+  text-align: center;
+}
+.info-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.new-character{
+  margin: 20px;
+  background: linear-gradient(180deg, #032250 0%, rgba(1, 7, 15, 0.82) 100%);
+  border-radius: 10px;
+  padding: 50px 30px 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.7s;
+}
+.new-character:hover{
+  transform: scale(1.06);
+  font-weight: 700;
+}
+img{
+  width: 200px;
+  height: 270px;
+  object-fit: cover;
+  
+}
+.character-info{
+  text-align: center;
+  width: 200px;
+}
+.gender{
+  width: 40px;
+  height: 40px;
+}
+input{
+  background: transparent;
+  width: 200px;
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+#newEpisode{
+  display: none;
+}
+#choice{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+span{
+  font-size: 20px;
+  text-align: center;
+}
+ul li{
+  font-size: 1.5rem;
+}
