@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#randomId{
+  font-size: 2rem;
+  font-weight: 700;
+}
+button{
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+#reset{
+  border: 2px dashed #865454;
+  color: #5a0a0a;
+  background: #e772723b;
+}
+#genId{
+  border: 2px dashed #568654;
+  color: #135a0a;
+  background: #7ce7723b;
+}
+#up{
+  border: 2px dashed #575486;
+  color: #1b0a5a;
+  background: #7a72e73b;
+}
+#down{
+  border: 2px dashed #838654;
+  color: #5a590a;
+  background: #e7e5723b;
+}
