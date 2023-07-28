@@ -103,6 +103,13 @@ const homeworks = {
     githubRepoLink:
       "https://github.com/Mykola-Dzoban/Advanced/tree/main/homework13",
   },
+  15: {
+    hwName: "Інструменти. Модульність коду та Webpack.",
+    githubPagesLink:
+      "https://mykola-dzoban.github.io/Advanced/homework15/index.html",
+    githubRepoLink:
+      "https://github.com/Mykola-Dzoban/Advanced/tree/main/homework15",
+  }
 };
 
 function generateHWIcons(homeworks) {
