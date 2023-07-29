@@ -109,6 +109,13 @@ const homeworks = {
       "https://mykola-dzoban.github.io/Advanced/homework15/index.html",
     githubRepoLink:
       "https://github.com/Mykola-Dzoban/Advanced/tree/main/homework15",
+  },
+  16: {
+    hwName: "ReactJS. Основи.",
+    githubPagesLink:
+      "https://mykola-dzoban.github.io/react16/",
+    githubRepoLink:
+      "https://github.com/Mykola-Dzoban/react16/tree/main",
   }
 };
 
